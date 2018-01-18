@@ -1,6 +1,6 @@
 {
     "name": "hxv/autoinject",
-    "version": "0.1",
+    "license": "WTFPL",
     "description": "Super simple dependency injection library.",
     "type": "library",
     "require": {
