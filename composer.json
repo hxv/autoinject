@@ -1,0 +1,24 @@
+{
+    "name": "hxv/autoinject",
+    "version": "0.1",
+    "description": "Super simple dependency injection library.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "Michał Włodarczyk",
+            "email": "admin@hxv.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "hxv\\AutoInject\\": "src\\"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
